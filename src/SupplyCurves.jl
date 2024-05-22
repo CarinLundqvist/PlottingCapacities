@@ -1,4 +1,4 @@
-
+	
 CRF(r,T) = r / (1 - 1/(1+r)^T)
 meandrop(x; dims=dims) = dropdims(mean(x, dims=dims), dims=dims)
 sumdrop(x; dims=dims) = dropdims(sum(x, dims=dims), dims=dims)
